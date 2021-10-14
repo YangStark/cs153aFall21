@@ -204,6 +204,13 @@ const MathQuiz = (props) => {
           onPress={() => setDebugMode(!debugMode)}
         />
       </View>
+      <View style={styles.rowSpaceBetween}>
+        <Button
+          title={"Clear Cache"}
+          color="blue"
+          onPress = {()=> {clearAll()}}
+          />
+      </View>
 
       {debugView}
 
