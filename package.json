@@ -10,9 +10,11 @@
     "@react-native-async-storage/async-storage": "~1.15.0",
     "@react-native-community/datetimepicker": "3.5.2",
     "@react-navigation/native": "^6.0.2",
-    "@react-navigation/native-stack": "^6.1.0",
-    "expo": "~42.0.1",
-    "expo-cli": "^4.11.0",
+    "@react-navigation/native-stack": "^6.2.5",
+    "expo": "^42.0.5",
+    "expo-camera": "~11.2.2",
+    "expo-cli": "^4.12.10",
+    "expo-image-picker": "~10.2.2",
     "expo-splash-screen": "~0.11.2",
     "expo-status-bar": "~1.0.4",
     "expo-updates": "~0.8.1",
@@ -23,10 +25,8 @@
     "react-native-reanimated": "~2.2.0",
     "react-native-safe-area-context": "3.2.0",
     "react-native-screens": "~3.4.0",
-    "react-native-unimodules": "~0.14.5",
-    "react-native-web": "~0.13.12",
-    "expo-camera": "~11.2.2",
-    "expo-image-picker": "~10.2.2"
+    "react-native-unimodules": "^0.14.10",
+    "react-native-web": "~0.13.12"
   },
   "devDependencies": {
     "@babel/core": "^7.9.0"
