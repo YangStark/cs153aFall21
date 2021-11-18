@@ -4,12 +4,13 @@ import React from 'react';
 import BankAcctDemo from './components/BankAcctDemo'
 import ConditionalRender from './components/ConditionalRender'
 import MyStack from './components/CPADemo'
+import Quiz5 from './components/quiz5'
 
 export default function App() {
   return (
     //<MathQuiz n={20}/>
     //<PointDemo />
-    <MyStack />
+    <Quiz5 />
     //<ConditionalRender />
   );
 }
