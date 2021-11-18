@@ -4,7 +4,7 @@ import React from 'react';
 import BankAcctDemo from './components/BankAcctDemo'
 import ConditionalRender from './components/ConditionalRender'
 import MyStack from './components/CPADemo'
-import Quiz5 from './components/quiz5'
+import Quiz5 from './components/BBViewer'
 
 export default function App() {
   return (
