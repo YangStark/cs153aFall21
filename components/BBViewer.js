@@ -50,8 +50,7 @@ export default function App() {
   const PostItem = ({ item, onPress, backgroundColor, textColor }) => {
     return (
       <View style={{ padding: 10, margin: 10, backgroundColor: "#ddd" }}>
-        <Text style={{ fontSize: 24 }}>{item.title}</Text>
-        <Text>{item.text}</Text>
+        <Text style={{ fontSize: 24 }}>{item.title}</Text><Text>{item.text}</Text>
       </View>
     );
   };
